@@ -1,1 +1,14 @@
+# Ignore everything
+*
+
+# Unignore specific directories
+!.gitignore
+!public/
+!src/
+!templates/
+!app.js
+!package.json
+!package-lock.json
+
+# Explicitly ignore node_modules
 node_modules/
